@@ -28,6 +28,6 @@ int main()
         bill = (50*0.5) + (100*0.75) + (100 * 1.20) + (input * 1.50);
     }
     bill += bill * 0.2;
-    printf("Electricity Bill = Rs. %.2f", bill);
+    printf("Electricity Bill = Rs. %.2f\n", bill);
     return 0;
 }
