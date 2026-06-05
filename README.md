@@ -2,7 +2,7 @@
 
 This repository contains C programming practice problems organized by topic for the CSE103 Summer 2026 course of East West University.
 
-Problems provied by Puja Chakraborty (Senior Lecturer, East West University)
+Problems provided by Puja Chakraborty (Senior Lecturer, East West University)
 
 ## Structure
 
