@@ -4,7 +4,10 @@ int main() {
     int n, count = 0;
     scanf("%d", &n);
 
-    if (n == 0) count = 1;  // special case for 0
+    if (n == 0) 
+    {
+        count = 1;
+    }
     else {
         while (n != 0) {
             count++;
