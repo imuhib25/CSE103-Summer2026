@@ -18,11 +18,18 @@ Example:
 
 ```bash
 cd conditional_problems
-gcc -o problem_15.exe problem_15.c
-./problem_15.exe
+gcc -o problem_15 problem_15.c
+./problem_15
 ```
 
-On Windows with MinGW, replace `./problem_15.exe` with `problem_15.exe` if needed.
+On Windows, use:
+
+```bash
+gcc -o problem_15.exe problem_15.c
+problem_15.exe
+```
+
+**Note:** Compiled executables and object files have been removed from the repository. You will need to compile the source files before running them.
 
 ## Notes
 
