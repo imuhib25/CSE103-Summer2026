@@ -28,15 +28,16 @@ int main ()
     for (int i = 0; i < m; i++) {
         printf("Candidate %d received %d votes\n", i + 1, count[i]);
     }
-// Find winner
+
     int maxVotes = count[0];
-    for (int i = 1; i < m; i++) {
-        if (count[i] > maxVotes) {
+    for (int i = 1; i < m; i++) 
+    {
+        if (count[i] > maxVotes) 
+        {
             maxVotes = count[i];
         }
     }
 
-    // Check for tie
     int tieCount = 0;
     for (int i = 0; i < m; i++) {
         if (count[i] == maxVotes) {
